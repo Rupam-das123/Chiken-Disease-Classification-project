@@ -28,7 +28,7 @@ def home():
 @cross_origin()
 def trainRoute():
     os.system("python main.py")
-    return "Training done successfully!"
+    return "Training done successfully yeaa!"
 
 
 
