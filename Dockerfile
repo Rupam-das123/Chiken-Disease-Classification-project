@@ -25,7 +25,7 @@ FROM python:3.8-slim-bullseye
 
 RUN apt update -y && apt install -y awscli
 
-WORKDIR /app
+COPY . /app
 
 COPY requirements.txt .
 
